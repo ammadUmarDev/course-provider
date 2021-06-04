@@ -1,0 +1,4 @@
+<button label="Add Course" class="btn" (click)="toggle()">Add Course</button>
+<app-add-course (onAddCourse)="addCourse($event)" *ngIf="show"></app-add-course>
+<app-course-item *ngFor=" let course of courses" [course]="course" (onDeleteCourse)="deleteCourse(course)">
+</app-course-item>

@@ -1,0 +1,75 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "name": "Frontend Development: VueJS",
+      "level": "Intermediate",
+      "language": "English",
+      "rating": 4
+    },
+    {
+      "id": 2,
+      "name": "Frontend Development: ReactJS",
+      "level": "Intermediate",
+      "language": "English",
+      "rating": 5
+    },
+    {
+      "id": 3,
+      "name": "Frontend Development: AngularJS",
+      "level": "Intermediate",
+      "language": "English",
+      "rating": 4
+    },
+    {
+      "id": 4,
+      "name": "Delete Me",
+      "level": "Beginner",
+      "language": "English",
+      "rating": 1
+    },
+    {
+      "id": 5,
+      "name": "Delete Me",
+      "level": "Beginner",
+      "language": "English",
+      "rating": 1
+    },
+    {
+      "name": "qwe",
+      "description": "qwe",
+      "instructorDescription": "qwe",
+      "outline": "qwe",
+      "prerequisites": "asd",
+      "lectures": 1,
+      "hours": 1,
+      "quizes": 1,
+      "exercises": 1,
+      "price": "asd",
+      "discount": "asd",
+      "sEnrolled": 1,
+      "level": "Beginner",
+      "language": "asdas",
+      "rating": "0",
+      "id": 6
+    },
+    {
+      "name": "asd",
+      "description": "asd",
+      "instructorDescription": "asd",
+      "outline": "asd",
+      "prerequisites": "asd",
+      "lectures": 1,
+      "hours": 1,
+      "quizes": 1,
+      "exercises": 1,
+      "price": "1",
+      "discount": "1",
+      "sEnrolled": 1,
+      "level": "Intermediate",
+      "language": "asdas",
+      "rating": "2",
+      "id": 7
+    }
+  ]
+}

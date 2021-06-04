@@ -1,0 +1,22 @@
+<div class="course" (click)="toggle()">
+    <h3>Course Name: {{course.name}} <fa-icon [icon]="faTimes" [ngStyle]="{'color':'red'}" (click)="onDelete(course)">
+        </fa-icon>
+    </h3>
+    <h5 *ngIf="show">Description: {{course.description}}</h5>
+    <h5 *ngIf="show">Instructor Description: {{course.instructorDescription}}</h5>
+    <h5 *ngIf="show">Outline: {{course.outline}}</h5>
+    <h5 *ngIf="show">Prerequisites: {{course.prerequisites}}</h5>
+    <h5 *ngIf="show">Lectures: {{course.lectures}}</h5>
+    <h5 *ngIf="show">Hours: {{course.hours}}</h5>
+    <h5 *ngIf="show">Quizes: {{course.quizes}}</h5>
+    <h5 *ngIf="show">Exercises: {{course.exercises}}</h5>
+    <h5>Difficulty Level: {{course.level}}</h5>
+    <h5>Langiage: {{course.language}}</h5>
+    <h5>Rating: {{course.rating}}</h5>
+    <h5 *ngIf="show">Students Enrolled: {{course.sEnrolled}}</h5>
+    <s *ngIf="show">
+        <h5>Orignal Price: {{course.price}}</h5>
+    </s>
+    <h5 *ngIf="show">Discount: {{course.discount}}</h5>
+    <!-- <h5>Discounted Price: {{parseInt(course.price)-parseInt(course.discount)}}</h5> -->
+</div>

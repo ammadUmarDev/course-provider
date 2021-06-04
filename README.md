@@ -1,2 +1,27 @@
-# course-provider
-Assignment Statement: You are required to develop a single-page web application for creating an online course provider system (e.g., Udemy) for web developers only. The basic requirements are as follows. • The application should provide a list of topics related to web development. There should be a list of available courses for all topics. (Marks: 4) • The available courses are further categorized based on level, language, and ratings. (Marks: 4) o Level can be beginner, intermediate, and expert. o Language can be English, Urdu, French, etc. o Rating scale can be defined from 1—5. After selecting a particular category, the list of available courses should be updated accordingly. Hint: make use of angular components and directives to change the view of the courses list based on the selected category option. • Upon clicking on a course, its details should be displayed which must include: (Marks: 2) o The complete title of the course. o A brief introduction of the course in textual format or a video of the instructor introducing the course. o A brief introduction of the course instructor. o A detailed course outline that includes topics to be covered. o Course prerequisites (if any). o The number of lectures, total hours, quizzes, and exercises. o Price and discount information of the course. o Date added, ratings, students enrolled, etc.
+# AngularCrash
+
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.0.3.
+
+## Development server
+
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+
+## Code scaffolding
+
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+
+## Build
+
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+
+## Running unit tests
+
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+
+## Running end-to-end tests
+
+Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+
+## Further help
+
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
